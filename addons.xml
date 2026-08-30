@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="skin.arctic.fuse.x" name="Arctic Fuse X" provider-name="GuiZmY" version="1.0.7">
+    <requires>
+        <import addon="xbmc.gui" version="5.17.0" />
+        <import addon="repository.jurialmunkey" version="3.5" />
+        <import addon="script.skinvariables" version="2.1.28" />
+        <import addon="script.texturemaker" version="0.2.9" />
+        <import addon="plugin.video.themoviedb.helper" version="6.12.1" />
+        <import addon="resource.images.weathericons.white" version="0.0.1" />
+        <import addon="resource.images.studios.coloured" version="0.0.1" />
+        <import addon="resource.font.robotocjksc" version="0.0.3" />
+    </requires>
+    <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="1080i" width="1920" height="1080" />
+        <res aspect="3:2" default="false" folder="1080i" width="1620" height="1080" />
+        <res aspect="4:3" default="false" folder="1080i" width="1440" height="1080" />
+        <res aspect="16:10" default="false" folder="1080i" width="1728" height="1080" />
+        <res aspect="17:9" default="false" folder="1080i" width="2040" height="1080" />
+        <res aspect="21:9" default="false" folder="1080i" width="2520" height="1080" />
+        <res aspect="19.5:9" default="false" folder="1080i" width="2340" height="1080" />
+        <res aspect="18:9" default="false" folder="1080i" width="2160" height="1080" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">A minimal row based skin — a mod of Arctic Fuse 2 by jurialmunkey</summary>
+        <description lang="en">Arctic Fuse X is a personal mod of Arctic Fuse 2, a minimal row based skin with customisable widgets. All credit for the original skin goes to jurialmunkey — this mod only adds a few view types and widget styles. Original licence preserved.</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <forum />
+        <source />
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon><addon id="skin.arctic.fuse.x" name="Arctic Fuse X" provider-name="GuiZmY" version="1.1.7">
+    <requires>
+        <import addon="xbmc.gui" version="5.18.0" />
+        <import addon="repository.jurialmunkey" version="3.5" />
+        <import addon="script.skinvariables" version="2.1.28" />
+        <import addon="script.texturemaker" version="0.2.9" />
+        <import addon="plugin.video.themoviedb.helper" version="6.12.1" />
+        <import addon="resource.images.weathericons.white" version="0.0.1" />
+        <import addon="resource.images.studios.coloured" version="0.0.1" />
+        <import addon="resource.font.robotocjksc" version="0.0.3" />
+    </requires>
+    <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="1080i" width="1920" height="1080" />
+        <res aspect="3:2" default="false" folder="1080i" width="1620" height="1080" />
+        <res aspect="4:3" default="false" folder="1080i" width="1440" height="1080" />
+        <res aspect="16:10" default="false" folder="1080i" width="1728" height="1080" />
+        <res aspect="17:9" default="false" folder="1080i" width="2040" height="1080" />
+        <res aspect="21:9" default="false" folder="1080i" width="2520" height="1080" />
+        <res aspect="19.5:9" default="false" folder="1080i" width="2340" height="1080" />
+        <res aspect="18:9" default="false" folder="1080i" width="2160" height="1080" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">A minimal row based skin — a mod of Arctic Fuse 2 by jurialmunkey</summary>
+        <description lang="en">Arctic Fuse X is a personal mod of Arctic Fuse 2, a minimal row based skin with customisable widgets. All credit for the original skin goes to jurialmunkey — this mod only adds a few view types and widget styles. Original licence preserved.</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <forum />
+        <source />
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon><addon id="repository.guizmy" name="Dépôt GuiZmY" version="1.0.1" provider-name="GuiZmY">
+    <extension point="xbmc.addon.repository" name="Dépôt GuiZmY">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/GuiZZZmY/kodi-repo/main/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/GuiZZZmY/kodi-repo/main/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/GuiZZZmY/kodi-repo/main/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="fr">Extensions maison : Arctic Fuse X, AEL patché et utilitaires</summary>
+        <description lang="fr">Dépôt personnel servi depuis GitHub, sans authentification. Il fournit le skin Arctic Fuse X, la version patchée d'Advanced Emulator Launcher et quelques extensions maison. Il ne republie volontairement pas TMDbHelper ni les autres extensions de jurialmunkey, qui doivent rester à jour depuis son propre dépôt.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon><addon id="plugin.program.advanced.emulator.launcher" name="Advanced Emulator Launcher X" version="9.0.4" provider-name="Wintermute0110">
+    <requires>
+        
+        <import addon="xbmc.python" version="3.0.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>executable game</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        
+        
+        <summary lang="en_GB">Start any emulators/apps from Kodi.</summary>
+        <description lang="en_GB">Multi-emulator front-end and general application launcher for Kodi. Includes offline scrapers for MAME and No-Intro ROM sets and also supports scrapping ROM metadata and artwork online. ROM auditing for No-Intro ROMs using No-Intro or Redump XML DAT files. Launching of games and standalone applications is also available.</description>
+        <platform>android freebsd ios linux osx windows</platform>
+        <license>GPL-2.0-only</license>
+        <email>wintermute0110@gmail.com</email>
+        <forum>https://forum.kodi.tv/showthread.php?tid=287826</forum>
+        <website>https://github.com/Wintermute0110/plugin.program.AEL/wiki</website>
+        <source>https://github.com/Wintermute0110/plugin.program.AEL/</source>
+        <assets>
+            <icon>media/icon.png</icon>
+            <fanart>media/fanart.jpg</fanart>
+            <screenshot>media/Estuary_ROM_Launcher.jpg</screenshot>
+            <screenshot>media/Estuary_ROM_Console.jpg</screenshot>
+            <screenshot>media/Estuary_ROM_MAME.jpg</screenshot>
+        </assets>
+        <news>9.0.4 : renommee « Advanced Emulator Launcher X », dans la lignee d'Arctic Fuse X. Le code est inchange.</news>
+    </extension>
+</addon><addon id="script.reloadskin" name="Reload Skin" version="1.0.1" provider-name="local">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+    </requires>
+    <extension point="xbmc.python.script" library="default.py" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Reload the current skin</summary>
+        <description lang="en_GB">Development utility: runs ReloadSkin() to apply XML changes without restarting Kodi. With an argument, runs the Kodi builtin passed to it, which lets outside tooling trigger actions JSON-RPC does not expose.</description>
+        <summary lang="fr_FR">Recharge le skin en cours</summary>
+        <description lang="fr_FR">Utilitaire de développement : exécute ReloadSkin() pour appliquer les modifications XML sans redémarrer Kodi. Avec un argument, exécute le builtin Kodi qu'on lui passe, ce qui permet de déclencher depuis l'extérieur des actions que JSON-RPC n'expose pas.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+    </extension>
+</addon><addon id="script.localcast" name="Local Cast" version="1.0.1" provider-name="GuiZmY">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="plugin.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="fr_FR">Casting du média en lecture, depuis la médiathèque</summary>
+        <description lang="fr_FR">Expose sous forme de liste le casting du média en cours de lecture, tel qu'il est enregistré dans la médiathèque de Kodi : nom, rôle et portrait. Kodi ne remplit un conteneur de casting que dans la fenêtre d'information ; ce plugin comble ce manque pour les fenêtres personnalisées, comme l'OSD du skin.</description>
+        <summary lang="en_GB">Cast of the playing item, from the library</summary>
+        <description lang="en_GB">Exposes the cast of the currently playing item as a directory listing, as stored in the Kodi library: name, role and thumbnail. Kodi only populates a cast container inside the video info dialog; this plugin fills that gap for custom windows such as the skin OSD.</description>
+        <license>GPL-3.0-or-later</license>
+        <platform>all</platform>
+    </extension>
+</addon><addon id="script.aelviews" name="AEL Views and Widgets" version="1.0.2" provider-name="GuiZmY">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="fr_FR">Attribuer vue et widget à chaque console AEL</summary>
+        <description lang="fr_FR">Choisit, pour chaque lanceur d'Advanced Emulator Launcher, le format de vue de ses ROMs et le style de son widget. La seule clé testable à l'exécution étant le launID — un hachage créé par AEL —, ces règles doivent être écrites dans le skin ; ce dialogue les écrit à votre place.</description>
+        <summary lang="en_GB">Assign a view and widget style to each AEL launcher</summary>
+        <description lang="en_GB">Chooses, for each Advanced Emulator Launcher launcher, the view layout of its ROMs and its widget style. Since the only key testable at runtime is the launID — a hash created by AEL — these rules must be written into the skin; this dialog writes them for you.</description>
+        <license>GPL-3.0-or-later</license>
+        <platform>all</platform>
+    </extension>
+</addon><addon id="script.seances.pathe" name="Séances Pathé" version="1.0.0" provider-name="GuiZmY">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.pil" version="1.1.7" />
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="kodi.context.item">
+        <menu id="kodi.core.main">
+            <item library="context.py">
+                <label>32000</label>
+                
+                <visible>String.IsEqual(ListItem.DBType,movie)</visible>
+            </item>
+        </menu>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="fr">Les séances d'un film dans vos cinémas Pathé</summary>
+        <summary lang="en_GB">Pathé showtimes for the selected film</summary>
+        <description lang="fr">Depuis le menu contextuel d'un film, affiche ses séances dans les cinémas Pathé de votre choix. Chaque séance propose un QR code qui ouvre la réservation sur votre téléphone — l'authentification bancaire ne se faisant pas à la télécommande.
+
+Les salles se choisissent dans les réglages, parmi tous les cinémas Pathé.</description>
+        <description lang="en_GB">Adds a context menu entry showing a film's showtimes in your chosen Pathé cinemas. Each showtime offers a QR code that opens booking on your phone — bank authentication cannot happen on a remote control.
+
+Cinemas are picked in the add-on settings, from the full Pathé list.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon><addon id="repository.jurialmunkey" name="jurialmunkey Alpha Repository" version="3.5" provider-name="jurialmunkey">
+    <extension point="xbmc.addon.repository" name="jurialmunkey Alpha Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/repo/zips/</datadir>
+        </dir>
+        <dir minversion="19.9.1" maxversion="20.9.0">
+            <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/nexusrepo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/nexusrepo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/nexusrepo/zips/</datadir>
+        </dir>
+        <dir minversion="20.9.1">
+            <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/omega/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/omega/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/omega/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>jurialmunkey Alpha Repository</summary>
+        <description>A repository for alpha releases of jurialmunkey's skins.</description>
+        <disclaimer />
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon></addons>
